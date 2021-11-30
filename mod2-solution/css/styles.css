@@ -1,13 +1,8 @@
-body {
-  background-color: #464646;
-}
-
 * {
   box-sizing: border-box;
 }
 
 #title {
-  color: white;
   text-align: center;
 }
 
@@ -43,7 +38,7 @@ body {
 
 div.col {
   border: solid black 1px;
-  background-color: white;
+  background-color: #c8c8c8;
   margin: 1%;
 }
 
@@ -54,18 +49,19 @@ div.col {
   text-align: center;
   padding: 5px 0;
   float: right;
+  color: white;
 }
 
 #chicken {
-  background-color: #D8E2DC;
+  background-color: #E4738D;
 }
 
 #beef {
-  background-color: #FFE5D9;
+  background-color: #8DE473;
 }
 
 #sushi {
-  background-color: #FFCAD4;
+  background-color: #6cd6df;
 }
 
 .clear-block {
