@@ -20,7 +20,8 @@
 
     if (firstLetter == "j") {
       byeSpeaker.speak(name);
-    } else {
+    } 
+    else {
       helloSpeaker.speak(name);
     }
   }

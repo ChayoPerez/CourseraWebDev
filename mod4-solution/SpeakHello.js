@@ -1,4 +1,4 @@
-(function (window) {
+(function (global) {
 	var speakWord = "Hello";
 
 	var speak = function (name) { // Just changed format
@@ -7,7 +7,7 @@
 	var helloSpeaker = {};
 	helloSpeaker.speak = speak;
 	
-	window.helloSpeaker = helloSpeaker;
+	global.helloSpeaker = helloSpeaker;
 })(window);
 
 
